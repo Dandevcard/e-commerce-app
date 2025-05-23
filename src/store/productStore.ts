@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { fetchProducts } from "@/lib/api";
+import { fetchProducts } from "@/utils/apiProducts";
 import type { Product } from "@/types/types";
 // import type { ProductStore } from "@/types/types";
 
