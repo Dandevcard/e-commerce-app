@@ -9,4 +9,11 @@ export type Product = {
   brand: string;
   // Adicione mais campos se precisar
 };
-
+export type User = {
+  id: number;
+  name: string;
+  email: string;
+  password: string;
+  avatar?: string;
+  // Adicione mais campos se precisar
+};
